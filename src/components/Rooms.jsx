@@ -8,7 +8,7 @@ const Rooms = () => {
   const { rooms, loading } = useRoomContext();
 
   return (
-    <section className='py-24'>
+    <section id='rooms' className='py-24'>
 
       {
         // overlay & spinner effect 
@@ -26,7 +26,7 @@ const Rooms = () => {
           <h2 className='font-primary text-[45px] mb-6'>Room & Suites</h2>
         </div>
 
-        <div className='grid grid-cols-1 max-w-sm mx-auto gap-[30px] lg:grid-cols-3 lg:max-w-none lg:mx-0'>
+        <div className='grid grid-cols-1 gap-[30px] mx-auto md:grid-cols-2 md:max-w-4xl md:gap-[40px]'>
           {
             rooms.map(room =>
               <Room key={room.id} room={room} />

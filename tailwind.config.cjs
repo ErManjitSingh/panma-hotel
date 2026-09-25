@@ -26,7 +26,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        room: "url('/src/assets/img/room.jpg')",
+        room: "url('/src/assets/img/hero-room.png')",
       },
     },
   },

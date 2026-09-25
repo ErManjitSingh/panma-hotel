@@ -9,5 +9,11 @@ export { default as Footer } from './Footer';
 export { default as Header } from './Header';
 export { default as Rooms } from './Rooms';
 export { default as Room } from './Room';
+export { default as HotelFacilities } from './HotelFacilities';
+export { default as Gallery } from './Gallery';
+export { default as ContactSection } from './ContactSection';
+export { default as Sightseeing } from './Sightseeing';
+export { default as Camping } from './Camping';
+export { default as FloatingContact } from './FloatingContact';
 
 export { default as ScrollToTop } from '../utils/ScrollToTop';

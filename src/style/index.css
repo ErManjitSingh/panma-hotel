@@ -69,3 +69,16 @@
     @apply bg-white text-[#0a0a0a];
   }
 }
+
+.room-card-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.55);
+  opacity: 1;
+}
+
+.room-card-pagination .swiper-pagination-bullet-active {
+  background: #a37d4c;
+  width: 18px;
+  border-radius: 999px;
+}

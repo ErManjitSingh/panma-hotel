@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes, } from 'react-router-dom';
-import { Footer, Header, PageNotFound } from './components';
+import { Footer, Header, PageNotFound, FloatingContact } from './components';
 import { Home, RoomDetails } from './pages';
 
 
@@ -26,6 +26,8 @@ const App = () => {
           <Route path={'/room/:id'} element={<RoomDetails />} />
           <Route path={'*'} element={<PageNotFound />} />
         </Routes>
+
+        <FloatingContact />
 
         <Footer />
 

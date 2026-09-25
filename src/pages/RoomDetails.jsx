@@ -74,7 +74,7 @@ const RoomDetails = () => {
               </div>
 
               <button className='btn btn-lg btn-primary w-full'>
-                book now for ${price}
+                book now for ₹{price}
               </button>
             </div>
 
