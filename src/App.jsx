@@ -17,7 +17,7 @@ const App = () => {
   return (
 
     <main className=''>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
 
         <Header />
 
